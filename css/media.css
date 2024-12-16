@@ -1,0 +1,275 @@
+@media screen and (max-width: 1360px){
+    .nav-branding {
+        margin-right: 60px;
+    }
+    .menu{
+        gap: 20px;
+        margin-right: 20px;
+    }
+    .logo p span{
+        white-space: nowrap;
+    }
+    .propusk-left img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .nav-branding{
+        margin-right: 25px;
+    }
+    .menu{
+        gap: 15px;
+    }
+    .banner-left{
+        width: 50%;
+    }
+    .banner-left img{
+        max-width: 100%;
+    }
+    .banner-right{
+        padding-bottom: 50px;
+    }
+    .features-list{
+        justify-content: space-between;
+    }
+    .sale{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .banner h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .banner p{
+        font-size: 16px;
+    }
+    .banner .form-row  p{
+        font-size: 14px;
+        max-width: 100% ;
+    }
+   .features-list  .feature-item{
+        width: calc(100%/2 - 10px);
+        background-size: contain!important;
+        background-position: bottom right!important;
+        min-height: 315px;
+    }
+   .sale{
+       padding-top: 60px;
+   }
+    .features{
+        padding-top: 60px;
+    }
+    .sale-left{
+        width: 350px;
+    }
+    .sale-left img{
+        max-width: 100%;
+    }
+    .sale-timer{
+        padding: 60px 0;
+    }
+    .more{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .more-list{
+        flex-wrap: wrap;
+    }
+    .more-item{
+        width: calc(100%/2 - 10px    );
+    }
+    .oformlenie{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .fast-propusk{
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    footer .nav-branding{
+        margin-right: 25px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-top > div{
+        width:100%;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 990px){
+    .menu{
+        display: none;
+    }
+    .btn-mobile-menu{
+        display: flex;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .menu{
+        position: absolute;
+        background: #0F1720;
+        width: 100%;
+        left: 0;
+        top: 120px;
+        padding-left: 30px;
+    }
+    .menu-item{
+        margin-bottom: 20px;
+    }
+    nav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner{
+        padding-top: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .banner-left{
+        display: none;
+    }
+    .features{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .sale{
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .sale-right{
+        width: 100%;
+    }
+    .sale-left{
+        width: 200px;
+    }
+    .tag-list div{
+       flex-wrap: wrap;
+    }
+    .sale-timer, .more{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tags{
+        margin-bottom: 60px;
+    }
+    .oformlenie{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .oformlenie-block{
+        flex-direction: column-reverse;
+    }
+    .img-block, .text-block{
+        width: 100%;
+    }
+    .propusk-left{
+        display: none;
+    }
+    .propusk-right{
+        width: 100%;
+    }
+    .propusk, .fast-propusk{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer-top{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 600px){
+    .call-request{
+        display: none;
+    }
+    .features-list .feature-item{
+        width: 100%;
+    }
+    .feature-text{
+        max-width: 100%;
+    }
+    .tags{
+        flex-direction: column;
+    }
+    .more-item{
+        width: 100%;
+    }
+    .footer-top > div{
+       flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .footer-bottom{
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form-row{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .banner .form-row p{
+        margin-left: 0;
+    }
+    .header-contacts{
+        display: none;
+    }
+    .btn-mobile-menu{
+        margin-left: auto;
+    }
+    .sale-row:first-child{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .sale-row:last-child{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tag-list a{
+        font-size: 14px;
+    }
+    .propusk .form-row p{
+        margin-left: 0;
+    }
+    .propusk{
+        max-height: unset;
+    }
+    .section-title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .sale{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav,.features,  .banner, .sale-timer, .more, .oformlenie, .propusk, .fast-propusk, .footer-top, .footer-bottom{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
